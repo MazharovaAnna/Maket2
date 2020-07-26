@@ -189,8 +189,7 @@ p {
   color: #979797;
   padding: 15px 20px 2px 15px;
 }
-.sectione__buy {
-}
+
 .buy__may-title {
   font-size: 30px;
   color: #4a5260;
@@ -202,7 +201,7 @@ p {
   display: flex;
   justify-content: space-between;
 }
-.buy__standart {
+.package {
   background-color: #4a5262;
   padding-bottom: 20px;
 }
@@ -211,32 +210,103 @@ p {
   font-size: 24px;
   color: #ffffff;
   text-align: center;
-  padding: 20px 100px;
+  padding: 16px 100px;
 }
 .buy__price {
   text-align: center;
   font-size: 40px;
   color: #4a5260;
 
-  margin: 20px 3px;
+  margin: 0px 3px;
   background-color: #fff;
 }
 .buy__inf {
   font-size: 14px;
   color: #fff;
-  padding: 20px 40px 20px 15px;
+  padding: 25px 40px 10px 20px;
 }
 .buy__button {
   text-align: center;
   display: flex;
   justify-content: center;
- 
 }
 .buy__btn {
   text-decoration: none;
-  padding:15px 100px;
+  padding: 15px 100px;
   font-size: 18px;
   color: #4a5260;
   background-color: #fff;
   border-radius: 3%;
+}
+
+.sectione__contacts {
+  display: flex;
+  background-color: #495261;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+.contacts__inner {
+  display: flex;
+}
+.contacts__title {
+  font-size: 30px;
+  color: #fff;
+  margin: 0px auto;
+  padding: 50px 0 30px 0;
+  text-align: center;
+}
+.contacts__input {
+  max-width: 500px;
+  width: 100%;
+  padding: 0 40px 20px 50px;
+}
+.input__name {
+  padding: 8px 150px;
+  margin-bottom: 20px;
+}
+.input__email {
+  padding: 8px 150px;
+  margin-bottom: 20px;
+}
+.input__message {
+  padding: 10px 290px 150px 8px;
+  margin-bottom: 40px;
+}
+.contacts__btn {
+  text-decoration: none;
+  font-size: 16px;
+  color: #495261;
+  text-transform: uppercase;
+  padding: 15px 50px;
+
+  background-color: #fff;
+  border-radius: 5%;
+}
+.contacts__item {
+  padding: 0 0 30px 45px;
+}
+.contacts__icon {
+  display: flex;
+  padding-bottom: 10px;
+}
+.contacts__icon-n {
+  color: #fff;
+  font-size: 25px;
+  padding: 0 10px;
+  text-decoration: none;
+}
+.contacts__icon-text {
+  font-size: 14px;
+  color: #fff;
+}
+.contacts__icon-k {
+  font-size: 16px;
+  color: #fff;
+  padding: 0 10px 30px 10px;
+}
+.fooret__text {
+  font-size: 14px;
+  color: #495261;
+  text-align: center;
+  padding: 7px 0;
 }
