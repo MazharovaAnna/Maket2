@@ -245,10 +245,11 @@ p {
   margin-top: 50px;
   padding-bottom: 50px;
 }
-.contacts__inner {
+.contacts__inner{
   display: flex;
 }
 .contacts__title {
+ 
   font-size: 30px;
   color: #fff;
   margin: 0px auto;
@@ -259,6 +260,7 @@ p {
   max-width: 500px;
   width: 100%;
   padding: 0 40px 20px 50px;
+text-align: center;
 }
 .input__name {
   padding: 8px 150px;
@@ -278,16 +280,18 @@ p {
   color: #495261;
   text-transform: uppercase;
   padding: 15px 50px;
+  
 
   background-color: #fff;
   border-radius: 5%;
 }
-.contacts__item {
+.contacts__item{
   padding: 0 0 30px 45px;
 }
-.contacts__icon {
+.contacts__icon{
   display: flex;
   padding-bottom: 10px;
+ 
 }
 .contacts__icon-n {
   color: #fff;
@@ -298,15 +302,20 @@ p {
 .contacts__icon-text {
   font-size: 14px;
   color: #fff;
-}
-.contacts__icon-k {
-  font-size: 16px;
-  color: #fff;
-  padding: 0 10px 30px 10px;
-}
-.fooret__text {
+  }
+  .contacts__icon-k{
+    
+    font-size: 16px;
+    color: #fff;
+    padding: 0 10px 30px 10px ;
+  }
+  .fa-fa {
+    padding: 0 8px 8px 0;
+
+  }
+.fooret__text{
   font-size: 14px;
   color: #495261;
   text-align: center;
-  padding: 7px 0;
+  padding: 8px 0;
 }
