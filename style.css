@@ -380,5 +380,21 @@ textarea {
 
   } */
 
-  
-}
+  }
+  @media (max-width: 900px){
+    .sectione__inner{
+      padding: 30px 0px 0px 0;
+    }
+    .name__inf{
+      width: 100%;
+      max-width: 750px;
+      padding: 50px 30px 10px 0;
+    }
+    
+    .about__inf {
+      width: 100%;
+      max-width: 750px;
+      padding: 0;
+    }
+    
+  }
